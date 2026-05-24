@@ -1323,3 +1323,38 @@ body.light-theme .nav-cta:hover {
   opacity: 1;
   visibility: visible;
 }
+/* Mobile Responsiveness for Food Cards - Issue #117 */
+@media (max-width: 768px) {
+  .food-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .food-image {
+    width: 100%;
+    height: 200px;
+  }
+
+  .food-content {
+    width: 100%;
+  }
+
+  .menu-item-header {
+    flex-direction: column;
+    gap: 4px;
+  }
+
+  .menu-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .food-card {
+    padding: 12px;
+  }
+
+  .food-image {
+    height: 160px;
+  }
+}

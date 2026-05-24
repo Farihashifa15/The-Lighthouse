@@ -1358,3 +1358,18 @@ body.light-theme .nav-cta:hover {
     height: 160px;
   }
 }
+/* Fix: Hero contrast in dark mode - Issue #178 */
+.hero-title {
+  color: #ffffff;
+  text-shadow: 0 2px 30px rgba(0, 0, 0, 0.8),
+               0 4px 60px rgba(0, 0, 0, 0.6);
+}
+
+.hero-subtitle {
+  color: #f5f2ed;
+  text-shadow: 0 1px 20px rgba(0, 0, 0, 0.7);
+}
+
+.nav-link {
+  text-shadow: 0 1px 10px rgba(0, 0, 0, 0.5);
+}

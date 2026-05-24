@@ -265,3 +265,23 @@ If you like this project:
 
 GitHub Repository:  
 https://github.com/Anushka-Sarkar/the-lighthouse-restaurant
+---
+
+# 🎨 Asset Attribution & External Resources
+
+## 🖼️ Images
+All images used in this project are sourced from [Unsplash](https://unsplash.com) and [Pexels](https://pexels.com) — free to use under their respective licenses.
+
+## ✍️ Fonts
+This project uses the following fonts from [Google Fonts](https://fonts.google.com):
+- **Cormorant Garamond** — [View Font](https://fonts.google.com/specimen/Cormorant+Garamond)
+- **Inter** — [View Font](https://fonts.google.com/specimen/Inter)
+
+## 🗺️ Google Maps
+The location section uses [Google Maps Embed API](https://developers.google.com/maps/documentation/embed/get-started) for the interactive map display.
+
+## 🎨 Icons
+SVG icons used in the project are inline and custom-designed for this project.
+
+## 📦 External Libraries
+No external JavaScript libraries or CSS frameworks are used. This project is built with pure HTML, CSS, and JavaScript.
